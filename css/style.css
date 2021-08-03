@@ -20,6 +20,18 @@ body {
     font-family: 'Gowun Batang', serif;
 }
 
+.progress-bar {
+    position: fixed;
+    width: 100%;
+    height: 10px;
+}
+
+.progress {
+    width: 0%;
+    height: 100%;
+    background: red;
+}
+
 header {
     display: flex;
     flex-direction: column;
